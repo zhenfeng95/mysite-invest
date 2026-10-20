@@ -1,0 +1,69 @@
+{
+    "items": [
+        {
+            "id": "calendar",
+            "name": "财经日历",
+            "description": "按周查看重要经济数据与事件发布日程，跟踪利率决议、就业与通胀等对市场有影响的财经日历节点。",
+            "icon": "calendar",
+            "status": "available",
+            "route": "/tools/calendar",
+            "apiRequired": true,
+            "apiPath": "/api/calendar"
+        },
+        {
+            "id": "spatial",
+            "name": "空间计算器",
+            "description": "基于价格运行规律，推演标准走势下关键价格位可能抵达的空间，辅助复盘支撑阻力与目标位，不构成交易信号或投资建议。",
+            "icon": "calculator",
+            "status": "available",
+            "route": "/tools/spatial",
+            "apiRequired": false,
+            "iframeSrc": "/spatial/index.html"
+        },
+        {
+            "id": "compound-interest",
+            "name": "复利计算器",
+            "description": "按本金、年化收益率、期限与复利频率估算终值与利息，支持定投追加，仅供学习参考，不构成投资建议。",
+            "icon": "calculator",
+            "status": "available",
+            "route": "/tools/compound-interest",
+            "apiRequired": false
+        },
+        {
+            "id": "fx-estimate",
+            "name": "汇率购汇估算",
+            "description": "按示意牌价、加点与固定费用粗算人民币购汇美元/港币到账金额，或倒推所需人民币，便于出入金规划，不构成汇率或汇款建议。",
+            "icon": "calculator",
+            "status": "available",
+            "route": "/tools/fx-estimate",
+            "apiRequired": false
+        },
+        {
+            "id": "position-risk",
+            "name": "仓位风控计算器",
+            "description": "按账户权益、单笔风险比例与止损距离估算建议仓位与仓位市值，可设最大仓位占比约束，仅供学习风控方法，不构成交易信号。",
+            "icon": "chart",
+            "status": "available",
+            "route": "/tools/position-risk",
+            "apiRequired": false
+        },
+        {
+            "id": "trade-pnl",
+            "name": "盈亏收益率计算器",
+            "description": "按买入价、卖出价、股数与费用估算盈亏金额与收益率，便于单笔交易复盘，仅供学习参考，不构成投资建议。",
+            "icon": "calculator",
+            "status": "available",
+            "route": "/tools/trade-pnl",
+            "apiRequired": false
+        },
+        {
+            "id": "target-contribution",
+            "name": "目标金额倒推",
+            "description": "已知目标金额、本金、年化收益率与期限，反推每期需投入多少，与复利计算器同一模型，仅供学习规划，不构成投资建议。",
+            "icon": "calculator",
+            "status": "available",
+            "route": "/tools/target-contribution",
+            "apiRequired": false
+        }
+    ]
+}

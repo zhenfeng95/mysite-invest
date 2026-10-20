@@ -1,0 +1,37 @@
+<script setup lang="ts">
+import {
+  getFeaturedTutorials,
+  getLatestTutorials,
+  getTutorials,
+} from '~/utils/tutorial-meta'
+
+const popular = getFeaturedTutorials()
+const latest = getLatestTutorials(3)
+const total = getTutorials().length
+
+usePageSeo({
+  title: '投资教程｜港美股开户与跨境入门',
+  description: 'Zhen Invest 教程中心：覆盖美股券商开户、港卡申请、出入金与投资工具，提供文字、视频与一图看懂等多种形式，帮助内地用户建立跨境投资基础框架。',
+  path: '/tutorials',
+})
+</script>
+
+<template>
+  <AppContainer class="space-y-12 py-12 sm:py-16">
+    <PageHero
+      eyebrow="Tutorials"
+      title="投资教程"
+      description="从开户、入金到券商和投资工具，用更清楚的结构学习投资基础。"
+    />
+    <p class="text-sm text-zinc-400">共 {{ total }} 篇内容</p>
+    <TutorialTabs />
+    <section>
+      <SectionTitle title="热门教程" description="先看这些就能建立基本框架。" />
+      <TutorialList :items="popular" class="mt-8" />
+    </section>
+    <section>
+      <SectionTitle title="最新教程" description="按更新时间排列。" />
+      <TutorialList :items="latest" class="mt-8" />
+    </section>
+  </AppContainer>
+</template>

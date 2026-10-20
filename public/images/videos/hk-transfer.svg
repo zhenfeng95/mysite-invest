@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" rx="24" fill="#14171C"/>
+
+  <text x="48" y="56" fill="#8FADA0" font-family="Inter, PingFang SC, sans-serif" font-size="13" letter-spacing="2">图文演示</text>
+  <text x="48" y="100" fill="#F4F1EA" font-family="Inter, PingFang SC, sans-serif" font-size="28" font-weight="600">港卡资金流转</text>
+  <text x="48" y="132" fill="#8A939C" font-family="Inter, PingFang SC, sans-serif" font-size="14">发起转账前，按清单逐项核对 · 避免退汇与延误</text>
+
+  <rect x="48" y="168" width="200" height="88" rx="14" stroke="#2A3038" fill="#1A1F26"/>
+  <text x="68" y="204" fill="#F4F1EA" font-family="Inter, PingFang SC, sans-serif" font-size="15" font-weight="600">港卡 App</text>
+  <text x="68" y="230" fill="#A8B3BC" font-family="Inter, PingFang SC, sans-serif" font-size="12">汇丰 · 建银 · ZA…</text>
+
+  <path d="M258 212 H272" stroke="#4A5A52" stroke-width="2"/>
+  <path d="M272 212 L264 206 M272 212 L264 218" stroke="#4A5A52" stroke-width="2" fill="none"/>
+
+  <rect x="282" y="168" width="200" height="88" rx="14" stroke="#2A3038" fill="#1A1F26"/>
+  <text x="302" y="204" fill="#F4F1EA" font-family="Inter, PingFang SC, sans-serif" font-size="15" font-weight="600">选通道</text>
+  <text x="302" y="230" fill="#A8B3BC" font-family="Inter, PingFang SC, sans-serif" font-size="12">FPS · 本地转账 · 电汇</text>
+
+  <path d="M492 212 H506" stroke="#4A5A52" stroke-width="2"/>
+  <path d="M506 212 L498 206 M506 212 L498 218" stroke="#4A5A52" stroke-width="2" fill="none"/>
+
+  <rect x="516" y="168" width="200" height="88" rx="14" stroke="#2A3038" fill="#1A1F26"/>
+  <text x="536" y="204" fill="#F4F1EA" font-family="Inter, PingFang SC, sans-serif" font-size="15" font-weight="600">贴收款信息</text>
+  <text x="536" y="230" fill="#A8B3BC" font-family="Inter, PingFang SC, sans-serif" font-size="12">只从券商入金页复制</text>
+
+  <path d="M726 212 H740" stroke="#4A5A52" stroke-width="2"/>
+  <path d="M740 212 L732 206 M740 212 L732 218" stroke="#4A5A52" stroke-width="2" fill="none"/>
+
+  <rect x="750" y="168" width="162" height="88" rx="14" stroke="#2A3038" fill="#1A1F26"/>
+  <text x="770" y="204" fill="#F4F1EA" font-family="Inter, PingFang SC, sans-serif" font-size="15" font-weight="600">留回单</text>
+  <text x="770" y="230" fill="#A8B3BC" font-family="Inter, PingFang SC, sans-serif" font-size="12">查账备用</text>
+
+  <rect x="48" y="288" width="864" height="200" rx="16" stroke="#2A3038" fill="#12161B"/>
+  <text x="68" y="328" fill="#F4F1EA" font-family="Inter, PingFang SC, sans-serif" font-size="16" font-weight="600">转账演示核对项</text>
+  <text x="68" y="362" fill="#D4DDD8" font-family="Inter, PingFang SC, sans-serif" font-size="13">□ 同名　　□ 币种一致　　□ 收款人 / 识别码　　□ 备注（账号）</text>
+  <text x="68" y="394" fill="#D4DDD8" font-family="Inter, PingFang SC, sans-serif" font-size="13">□ 金额含手续费预期　　□ 工作日 / 假期　　□ 截图保存电子通知书</text>
+  <text x="68" y="430" fill="#A8B3BC" font-family="Inter, PingFang SC, sans-serif" font-size="12">示意路径：港币 FPS→港资券商 · 港币本地转账→嘉信花旗香港 · 美元电汇→美券商</text>
+  <text x="68" y="458" fill="#8FADA0" font-family="Inter, PingFang SC, sans-serif" font-size="12">完整说明与嘉信回单示例见「美股入金与资金流转」教程</text>
+</svg>

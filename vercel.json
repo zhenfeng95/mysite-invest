@@ -1,0 +1,41 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nuxtjs",
+  "regions": ["sin1"],
+  "headers": [
+    {
+      "source": "/_nuxt/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/favicon.ico", "destination": "/logo.png" }
+  ],
+  "redirects": [
+    {
+      "source": "/tutorials/bosco-china-account-guide",
+      "destination": "/tutorials/bosco-account-guide",
+      "permanent": true
+    },
+    {
+      "source": "/tutorials/firstrade-china-account-guide",
+      "destination": "/tutorials/firstrade-account-guide",
+      "permanent": true
+    },
+    {
+      "source": "/tutorials/schwab-china-account-guide",
+      "destination": "/tutorials/schwab-account-guide",
+      "permanent": true
+    },
+    {
+      "source": "/nav/deposit-withdraw",
+      "destination": "/nav/fund-transfer",
+      "permanent": true
+    }
+  ]
+}

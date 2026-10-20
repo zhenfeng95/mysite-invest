@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "id": "hunt-on-sunny-days",
+            "slug": "hunt-on-sunny-days",
+            "title": "晴天才出门打猎",
+            "description": "交易理念：明白人赚糊涂人的钱，强势多做、弱势少做，等信号确认再出手。内容仅供学习整理，不构成投资建议。",
+            "category": "交易框架",
+            "tags": ["确定性", "大势", "耐心", "复利", "纪律"],
+            "readingMinutes": 10,
+            "updatedAt": "2026-10-19",
+            "publishedAt": "2026-10-19",
+            "markdownFile": "hunt-on-sunny-days"
+        },
+        {
+            "id": "trend-stock-trading-tips",
+            "slug": "trend-stock-trading-tips",
+            "title": "趋势股交易技巧",
+            "description": "梳理趋势股为何沿均线爬升、常见回踩买点，以及用乖离率、均线斜率和高位钝化判断还有没有性价比。内容仅供学习整理，不构成投资建议。",
+            "category": "交易框架",
+            "tags": ["趋势", "均线", "买点", "乖离率", "纪律"],
+            "readingMinutes": 9,
+            "updatedAt": "2026-09-22",
+            "publishedAt": "2026-09-22",
+            "markdownFile": "trend-stock-trading-tips"
+        },
+        {
+            "id": "how-to-review-trading",
+            "slug": "how-to-review-trading",
+            "title": "如何复盘：从看热闹到看门道",
+            "description": "盘后复盘拆成大环境、板块、自我检视，再加水位与分支预案：共振入场、按强弱调仓、为明天写好 IF→THEN。内容仅供学习整理，不构成投资建议。",
+            "category": "交易框架",
+            "tags": ["复盘", "大势", "板块", "纪律", "仓位", "心态"],
+            "readingMinutes": 18,
+            "updatedAt": "2026-09-22",
+            "publishedAt": "2026-09-22",
+            "markdownFile": "how-to-review-trading"
+        },
+        {
+            "id": "win-easy-trading-core",
+            "slug": "win-easy-trading-core",
+            "title": "炒股赚米的核心",
+            "description": "承认市场不确定之后，把大势企稳、多头共振、九条总纲与 5 日线买点写成可检查提纲；只做顺风局，心思放在避免亏损。内容仅供学习整理，不构成投资建议。",
+            "category": "交易框架",
+            "tags": ["胜于易胜", "大势", "纪律", "买点", "复盘"],
+            "readingMinutes": 10,
+            "updatedAt": "2026-09-21",
+            "publishedAt": "2026-09-21",
+            "markdownFile": "win-easy-trading-core"
+        },
+        {
+            "id": "eight-rules-trading-framework",
+            "slug": "eight-rules-trading-framework",
+            "title": "打造终极盈利交易系统",
+            "description": "定本金、定模式、定股票、定仓位、定买卖、定复盘、定交易、定复利。用「八定」把交易拆成可检查的规则，持续对照实盘复盘。内容仅供学习整理，不构成投资建议。",
+            "category": "交易框架",
+            "tags": ["交易纪律", "仓位", "复盘", "复利"],
+            "readingMinutes": 8,
+            "updatedAt": "2026-09-20",
+            "publishedAt": "2026-09-20",
+            "markdownFile": "eight-rules-trading-framework"
+        }
+    ]
+}
