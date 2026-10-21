@@ -120,7 +120,7 @@ Firstrade 的开户流程也比较简单：在网站上提交申请后，有时�
 
 ### 和嘉信、盈立怎么选？
 
-Firstrade 更偏美股免佣交易、可买加密货币 ETF，出入金对港卡往往是电汇。若更看重美国综合券商品牌、或要港股 + 港卡 FPS，请先看：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)，并对照 [嘉信开户](/tutorials/schwab-account-guide)、[盈立新加坡开户](/tutorials/usmart-sg-account-guide)。
+Firstrade 更偏美股免佣交易、可买加密货币 ETF，出入金对港卡往往是电汇。若更看重美国综合券商品牌、或要港股 + 港卡 FPS，请先看：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)，并对照 [嘉信开户](/tutorials/schwab-account-guide)、[盈立新加坡开户](/tutorials/usmart-sg-account-guide)。
 
 ### 期权权限为什么只开了一部分？
 
@@ -128,5 +128,5 @@ Firstrade 更偏美股免佣交易、可买加密货币 ETF，出入金对港卡
 
 ---
 
-相关阅读：[如何选择美股券商](/tutorials/how-to-choose-us-broker) · [嘉信开户](/tutorials/schwab-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [美股券商导航](/nav/overseas-brokers) · [Firstrade 中文官网](https://www.firstrade.com/zh-CN)
+相关阅读：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [嘉信开户](/tutorials/schwab-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [美股券商导航](/nav/overseas-brokers) · [Firstrade 中文官网](https://www.firstrade.com/zh-CN)
 `;

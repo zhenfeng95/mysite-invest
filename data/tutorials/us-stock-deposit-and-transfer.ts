@@ -1,6 +1,6 @@
 export const usStockDepositAndTransferGuide = `本页整理内地用户向**美股 / 港美股券商**入金、出金时常见的资金链路与核对要点，仅供信息对照。各银行、支付机构与券商的收款信息、币种、费用、限额与到账时间会变化，请以对方官方说明与 App 当时显示为准。本页不构成汇款、换汇、税务或投资建议。
 
-若你还在选券商，可先看：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。具体开户步骤见各券商教程；本页只回答「钱怎么到券商、怎么取回来」。
+若你还在选券商，可先看：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。具体开户步骤见各券商教程；本页只回答「钱怎么到券商、怎么取回来」。
 
 ## 一、先建立心智模型：钱通常要过几站
 
@@ -162,5 +162,5 @@ Firstrade 等美国券商，港卡侧常见仍是**美元电汇**，费用与时
 
 ---
 
-相关阅读：[如何选择美股券商](/tutorials/how-to-choose-us-broker) · [港卡开户入门](/tutorials/hong-kong-bank-account-guide) · [兴业寰宇人生开户](/tutorials/cib-huanyu-account-guide) · [Wise 开户](/tutorials/wise-account-guide) · [汇款与出入金导航](/nav/fund-transfer) · [汇率购汇估算](/tools/fx-estimate)
+相关阅读：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [港卡开户入门](/tutorials/hong-kong-bank-account-guide) · [兴业寰宇人生开户](/tutorials/cib-huanyu-account-guide) · [Wise 开户](/tutorials/wise-account-guide) · [汇款与出入金导航](/nav/fund-transfer) · [汇率购汇估算](/tools/fx-estimate)
 `;

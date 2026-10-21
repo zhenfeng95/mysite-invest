@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
 
-const currentIcon = computed(() => (colorMode.value === 'dark' ? 'moon' : 'sun'))
+const currentIcon = computed(() => (colorMode.value === 'dark' ? 'sun' : 'moon'))
 
 function toggle() {
   colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'

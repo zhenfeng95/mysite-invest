@@ -48,10 +48,11 @@ export const researchNavLinksHidden: NavLink[] = [
     { label: '市场评分', to: '/market' },
 ];
 
-/** 头部「港美股券商」下拉（港资 / 美资列表页） */
+/** 头部「港美股券商」下拉（港资 / 美资 / 新资列表页） */
 export const brokerNavLinks: NavLink[] = [
     { label: '港资券商', to: '/nav/overseas-brokers/hk' },
     { label: '美资券商', to: '/nav/overseas-brokers/us' },
+    { label: '新资券商', to: '/nav/overseas-brokers/sg' },
 ];
 
 /** 头部「资金流转」下拉 */

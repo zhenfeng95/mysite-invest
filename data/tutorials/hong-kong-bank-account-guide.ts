@@ -33,7 +33,7 @@ export const hongKongBankAccountGuide = `本页整理内地用户办理 **港卡
 | 在内地 ATM 取人民币 | [港卡在内地 ATM 取现教程](/tutorials/hk-card-mainland-atm-cash) |
 | 内地扫码消费 | [港卡绑微信支付宝在内地消费](/tutorials/hk-card-bind-wechat-alipay) |
 | 多币种中转、出金支付宝 | [Wise 开户教程](/tutorials/wise-account-guide) |
-| 还没选券商 | [如何选择美股券商？](/tutorials/how-to-choose-us-broker) |
+| 还没选券商 | [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) |
 
 ## 常见问题
 

@@ -2,7 +2,7 @@ export const mainlandHkUsStockTaxGuide = `本页整理**中国税收居民**通�
 
 近期公开报道里，部分地区会提醒居民自查境外金融资产所得。无论是否收到通知，合规申报义务一般不以「有没有短信」为前提。社区讨论里常把 **CRS** 与 **金税四期** 并称为境外所得征管的「两个杀手锏」：前者解决「境外账户线索从哪来」，后者强化「国内数据怎么比对」——本页第五节会分开说明；第六节补充「怎么核算、怎么规划」的常见口径。
 
-若你还在选券商 / 准备开户，可先看：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)、[港美股券商导航](/nav/overseas-brokers)。
+若你还在选券商 / 准备开户，可先看：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)、[港美股券商导航](/nav/overseas-brokers)。
 
 ## 一、先分清：谁、什么所得、在哪里交
 
@@ -194,7 +194,7 @@ CRS（共同申报准则）下，参与辖区的金融机构会按规则向当�
 - **信息路径**：没有 CRS 年年自动交换，不等于永远没有其他信息来源（资金出境、汇兑、金税四期比对、个案协查、中美税收协定下的特定信息交换等，公开讨论里都会被提到）。  
 - **结论口径**：社区里有人认为「现阶段美资路径上自动交换压力更小」；但要承诺「100% 不会被收税」并不现实，也**不应**把选美资券商理解成合法避税工具。本站不鼓励、不指导任何逃税或隐瞒申报行为。
 
-选券商仍应优先看监管、入金、品种与自身需求，见：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+选券商仍应优先看监管、入金、品种与自身需求，见：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ### 7. 这一模块的小结
 
@@ -202,7 +202,7 @@ CRS（共同申报准则）下，参与辖区的金融机构会按规则向当�
 
 ## 七、和站内流程怎么串起来
 
-1. 选券商、开户：[如何选择美股券商？](/tutorials/how-to-choose-us-broker) → 各开户教程
+1. 选券商、开户：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) → 各开户教程
 2. 资金进出：[美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer)
 3. 账户结构概念：[一图看懂美股账户体系](/tutorials/us-account-system-infographic)
 4. 税务身份表格（如 W-8BEN）：见嘉信等开户文中的节点说明
@@ -240,5 +240,5 @@ CRS（共同申报准则）下，参与辖区的金融机构会按规则向当�
 
 - 政策原文入口：[财政部 税务总局公告 2020 年第 3 号](https://www.gov.cn/zhengce/zhengceku/2020-01/22/content_5471604.htm)
 - 税务总局：[chinatax.gov.cn](https://www.chinatax.gov.cn)
-- 站内：[如何选择美股券商？](/tutorials/how-to-choose-us-broker) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [港美股券商导航](/nav/overseas-brokers) · [嘉信开户](/tutorials/schwab-account-guide)
+- 站内：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [港美股券商导航](/nav/overseas-brokers) · [嘉信开户](/tutorials/schwab-account-guide)
 `

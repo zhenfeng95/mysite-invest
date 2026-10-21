@@ -147,8 +147,8 @@ export function getNavigationPath(slug?: string): string {
   return `/nav/${slug}`
 }
 
-/** 港美股券商按资金背景拆分：港资 / 美资。新加坡等其他主体仍只出现在总列表。 */
-export type BrokerCapital = 'hk' | 'us'
+/** 港美股券商按资金背景拆分：港资 / 美资 / 新资 */
+export type BrokerCapital = 'hk' | 'us' | 'sg'
 
 export interface BrokerCapitalGroup {
   id: BrokerCapital
@@ -166,7 +166,7 @@ export const brokerCapitalGroups: readonly BrokerCapitalGroup[] = [
     label: '港资券商',
     description: '香港证监会持牌的港资券商，覆盖港股、美股、期货期权与港股打新等常见入口。',
     itemIds: ['chief', 'bosco'],
-    tutorialSlugs: ['bosco-account-guide'],
+    tutorialSlugs: ['chief-account-guide', 'bosco-account-guide'],
   },
   {
     id: 'us',
@@ -174,6 +174,13 @@ export const brokerCapitalGroups: readonly BrokerCapitalGroup[] = [
     description: '美国经纪商，适合长期持有美股与 ETF，开户与入金以各家国际账户说明为准。',
     itemIds: ['schwab', 'firstrade'],
     tutorialSlugs: ['schwab-account-guide', 'firstrade-account-guide'],
+  },
+  {
+    id: 'sg',
+    label: '新资券商',
+    description: '新加坡金管局（MAS）等监管下的券商入口，覆盖美股、港股等多市场开户与交易。',
+    itemIds: ['usmart-sg'],
+    tutorialSlugs: ['usmart-sg-account-guide'],
   },
 ]
 

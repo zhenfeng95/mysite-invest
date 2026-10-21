@@ -33,6 +33,11 @@
       "permanent": true
     },
     {
+      "source": "/tutorials/mainland-us-stock-invest-guide",
+      "destination": "/tutorials/how-to-choose-us-broker",
+      "permanent": true
+    },
+    {
       "source": "/nav/deposit-withdraw",
       "destination": "/nav/fund-transfer",
       "permanent": true

@@ -41,7 +41,7 @@ export const etfTypesInfographic = `上图把常见 ETF 先按**投资目标 / �
 | 国际 / 地区 | 发达、新兴或单国；额外有汇率与地缘因素 |
 | 加密货币现货 ETF | 如比特币现货 ETF（公开讨论中常见 IBIT 等）；波动高，且部分券商对内地身份权限不同，见开户教程说明 |
 
-加密货币 ETF 与券商权限可对照：[Firstrade 开户](/tutorials/firstrade-account-guide)、[盈立新加坡开户](/tutorials/usmart-sg-account-guide)、[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+加密货币 ETF 与券商权限可对照：[Firstrade 开户](/tutorials/firstrade-account-guide)、[盈立新加坡开户](/tutorials/usmart-sg-account-guide)、[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ## 挑选前核对清单
 
@@ -71,5 +71,5 @@ ETF 是经纪账户里的一类**资产**，钱仍要先经资金路径进入券
 
 ---
 
-相关入口：[ETF 导航](/nav/etf) · [如何选择美股券商？](/tutorials/how-to-choose-us-broker) · [一图看懂美股账户体系](/tutorials/us-account-system-infographic)
+相关入口：[ETF 导航](/nav/etf) · [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [一图看懂美股账户体系](/tutorials/us-account-system-infographic)
 `;

@@ -29,6 +29,9 @@ export default defineNuxtConfig({
         '/tutorials/schwab-china-account-guide': {
             redirect: { to: '/tutorials/schwab-account-guide', statusCode: 301 },
         },
+        '/tutorials/mainland-us-stock-invest-guide': {
+            redirect: { to: '/tutorials/how-to-choose-us-broker', statusCode: 301 },
+        },
         '/nav/deposit-withdraw': {
             redirect: { to: '/nav/fund-transfer', statusCode: 301 },
         },

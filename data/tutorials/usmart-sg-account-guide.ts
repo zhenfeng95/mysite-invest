@@ -196,9 +196,9 @@ uSMART 新加坡于 2021 年 12 月从新加坡金融管理局（MAS）获得资
 
 ### 和嘉信、Firstrade 怎么选？
 
-更需要港股 + 美股、期权，又希望港卡出入金省事，很多人会对照盈立新加坡。只要美股、能接受电汇，可对照 [Firstrade](/tutorials/firstrade-account-guide)；更偏美国综合型底仓，对照 [嘉信](/tutorials/schwab-account-guide)。框架见：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+更需要港股 + 美股、期权，又希望港卡出入金省事，很多人会对照盈立新加坡。只要美股、能接受电汇，可对照 [Firstrade](/tutorials/firstrade-account-guide)；更偏美国综合型底仓，对照 [嘉信](/tutorials/schwab-account-guide)。框架见：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ---
 
-相关阅读：[如何选择美股券商](/tutorials/how-to-choose-us-broker) · [嘉信开户](/tutorials/schwab-account-guide) · [Firstrade 开户](/tutorials/firstrade-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [美股券商导航](/nav/overseas-brokers) · [盈立新加坡官网](https://www.usmart.sg/cn)
+相关阅读：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [嘉信开户](/tutorials/schwab-account-guide) · [Firstrade 开户](/tutorials/firstrade-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [美股券商导航](/nav/overseas-brokers) · [盈立新加坡官网](https://www.usmart.sg/cn)
 `;

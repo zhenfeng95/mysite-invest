@@ -416,6 +416,22 @@
             "icon": "broker",
             "items": [
                 {
+                    "id": "how-to-choose-us-broker",
+                    "name": "大陆用户如何投资美股？美股券商怎么选？",
+                    "description": "出入金主路径与嘉信、第一证券、宝时、致富、盈立新加坡对照；链到站内开户与入金教程。",
+                    "url": "",
+                    "tags": [
+                        "美股",
+                        "券商",
+                        "开户"
+                    ],
+                    "officialUrlConfirmed": true,
+                    "featured": true,
+                    "guideUrl": "/tutorials/how-to-choose-us-broker",
+                    "guideLabel": "阅读教程",
+                    "updatedAt": "2026-10-22"
+                },
+                {
                     "id": "usmart-sg",
                     "name": "盈立证券（新加坡）",
                     "description": "新加坡金管局监管券商。可查看盈立新加坡开户教程。",
@@ -432,7 +448,7 @@
                 {
                     "id": "chief",
                     "name": "致富证券",
-                    "description": "香港证监会持牌券商，覆盖港股、美股、期货与期权等。",
+                    "description": "香港证监会持牌券商，覆盖港股、美股、期货与期权等。可查看开户教程。",
                     "url": "https://www.chiefgroup.com.hk/cn",
                     "tags": [
                         "港股",
@@ -441,7 +457,10 @@
                     ],
                     "officialUrlConfirmed": true,
                     "featured": true,
-                    "updatedAt": "2026-08-21"
+                    "statusBadge": "活动进行中",
+                    "guideUrl": "/tutorials/chief-account-guide",
+                    "guideLabel": "开户教程",
+                    "updatedAt": "2026-10-21"
                 },
                 {
                     "id": "bosco",

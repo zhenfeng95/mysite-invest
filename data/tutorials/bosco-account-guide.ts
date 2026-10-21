@@ -144,7 +144,7 @@ export const boscoAccountGuide = `本页整理通过 **宝时证券（Bosco Secu
 2. 入金路径是否已准备好（尤其是同名港卡 / 电汇安排）
 3. 当前活动门槛和费用是否仍符合预期
 
-选型框架也可先看：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+选型框架也可先看：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ## 常见问题
 
@@ -166,7 +166,7 @@ export const boscoAccountGuide = `本页整理通过 **宝时证券（Bosco Secu
 
 ### 和嘉信、Firstrade、盈立怎么选？
 
-宝时是香港证监会持牌券商，更常对照**港股、打新**，同时兼顾美股。只要美股、能接受电汇，对照 [Firstrade 开户](/tutorials/firstrade-account-guide)；更偏美国综合型底仓，对照 [嘉信开户](/tutorials/schwab-account-guide)；港股 + 美股又希望港卡 FPS 更顺手，对照 [盈立新加坡开户](/tutorials/usmart-sg-account-guide)。框架见：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+宝时是香港证监会持牌券商，更常对照**港股、打新**，同时兼顾美股。只要美股、能接受电汇，对照 [Firstrade 开户](/tutorials/firstrade-account-guide)；更偏美国综合型底仓，对照 [嘉信开户](/tutorials/schwab-account-guide)；港股 + 美股又希望港卡 FPS 更顺手，对照 [盈立新加坡开户](/tutorials/usmart-sg-account-guide)。框架见：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ### 大陆 Apple ID 搜不到 App 怎么办？
 
@@ -174,5 +174,5 @@ export const boscoAccountGuide = `本页整理通过 **宝时证券（Bosco Secu
 
 ---
 
-相关阅读：[如何选择美股券商](/tutorials/how-to-choose-us-broker) · [嘉信开户](/tutorials/schwab-account-guide) · [Firstrade 开户](/tutorials/firstrade-account-guide) · [盈立新加坡开户](/tutorials/usmart-sg-account-guide) · [港卡开户入门](/tutorials/hong-kong-bank-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [美股券商导航](/nav/overseas-brokers) · [宝时证券官网](https://www.bsl.hk)
+相关阅读：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [嘉信开户](/tutorials/schwab-account-guide) · [Firstrade 开户](/tutorials/firstrade-account-guide) · [盈立新加坡开户](/tutorials/usmart-sg-account-guide) · [港卡开户入门](/tutorials/hong-kong-bank-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [美股券商导航](/nav/overseas-brokers) · [宝时证券官网](https://www.bsl.hk)
 `

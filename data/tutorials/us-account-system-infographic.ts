@@ -25,7 +25,7 @@ export const usAccountSystemInfographic = `上图把美股相关账户拆成四�
 - **W-8BEN**：非美国税务居民常见表格，影响股息预扣等处理方式（以券商与税务规则为准）。
 - **交易权限**：股票 / ETF 往往默认；期权、融资等可能另审。
 
-选型框架见：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。分步开户见：[嘉信](/tutorials/schwab-account-guide)、[Firstrade](/tutorials/firstrade-account-guide)、[盈立新加坡](/tutorials/usmart-sg-account-guide)、[宝时](/tutorials/bosco-account-guide)。
+选型框架见：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。分步开户见：[嘉信](/tutorials/schwab-account-guide)、[Firstrade](/tutorials/firstrade-account-guide)、[盈立新加坡](/tutorials/usmart-sg-account-guide)、[宝时](/tutorials/bosco-account-guide)。
 
 ## ③ 账户内资产：同一账户里的不同「格子」
 
@@ -58,12 +58,12 @@ export const usAccountSystemInfographic = `上图把美股相关账户拆成四�
 
 | 下一步 | 链接 |
 | --- | --- |
-| 怎么选券商 | [如何选择美股券商？](/tutorials/how-to-choose-us-broker) |
+| 怎么选券商 | [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) |
 | 钱怎么进去 | [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) |
 | 券商列表 | [港美股券商导航](/nav/overseas-brokers) |
 | 出入金资源 | [汇款与出入金导航](/nav/fund-transfer) |
 
 ---
 
-相关入口：[如何选择美股券商？](/tutorials/how-to-choose-us-broker) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [港美股券商导航](/nav/overseas-brokers)
+相关入口：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [港美股券商导航](/nav/overseas-brokers)
 `;

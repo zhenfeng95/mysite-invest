@@ -240,6 +240,21 @@
       "markdownFile": "usmart-sg-account-guide"
     },
     {
+      "id": "chief-account",
+      "slug": "chief-account-guide",
+      "title": "致富证券开户教程",
+      "description": "整理致富证券（Chief）开户注意点（境外 IP、渠道链接、港卡入金约 1 万港币）、活动口径、收费与 FPS/eDDA 入金对照，供对照官方页面。",
+      "type": "article",
+      "category": "美股券商",
+      "tags": ["美股", "券商", "开户", "港股", "致富"],
+      "readingMinutes": 12,
+      "updatedAt": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "popular": true,
+      "statusBadge": "活动进行中",
+      "markdownFile": "chief-account-guide"
+    },
+    {
       "id": "bosco-account",
       "slug": "bosco-account-guide",
       "title": "宝时证券开户教程",
@@ -299,13 +314,13 @@
     {
       "id": "choose-us-broker",
       "slug": "how-to-choose-us-broker",
-      "title": "如何选择美股券商？",
-      "description": "按监管、入金路径、佣金、品种与中文支持等维度比较美股/港美股券商，并对照嘉信、Firstrade、盈立、宝时等站内教程，帮助建立选型框架。",
+      "title": "大陆用户如何投资美股？美股券商怎么选？",
+      "description": "整理内地用户美股券商出入金主路径，并对照嘉信、第一证券、宝时、致富、盈立新加坡；说明作者主力为嘉信与宝时，链到站内开户与入金教程。",
       "type": "article",
       "category": "美股券商",
-      "tags": ["美股", "券商", "开户", "入金"],
-      "readingMinutes": 11,
-      "updatedAt": "2026-09-16",
+      "tags": ["美股", "券商", "开户", "入金", "嘉信", "Firstrade", "宝时", "致富", "盈立"],
+      "readingMinutes": 18,
+      "updatedAt": "2026-10-22",
       "publishedAt": "2026-06-02",
       "popular": true,
       "markdownFile": "how-to-choose-us-broker"

@@ -6,11 +6,11 @@ export const schwabAccountGuide = `本页面向**中国内地居民**，整理�
 
 | 更适合继续往下看 | 可能要先换路径 |
 | --- | --- |
-| 主要想做**美股 / ETF 长期底仓**，认美国综合券商品牌 | 主要做港股打新 / 港币 FPS 高频进出 → 先看 [盈立新加坡](/tutorials/usmart-sg-account-guide) 或 [如何选择美股券商？](/tutorials/how-to-choose-us-broker) |
+| 主要想做**美股 / ETF 长期底仓**，认美国综合券商品牌 | 主要做港股打新 / 港币 FPS 高频进出 → 先看 [盈立新加坡](/tutorials/usmart-sg-account-guide) 或 [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) |
 | 能接受**护照 + 内地地址证明**线上开，暂无海外住址要求（以当时页面为准） | 已有美卡、只想 ACH 出入、不太需要中文客服对照 |
 | 已有或准备办**港卡**，希望用港币本地转账入金，而不是只靠跨境美元电汇 | 只想「免佣美股 + 电汇补贴」、能接受纯电汇 → 对照 [Firstrade 开户](/tutorials/firstrade-account-guide) |
 
-和 Firstrade、盈立的选型对照见文末 FAQ，以及：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+和 Firstrade、盈立的选型对照见文末 FAQ，以及：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ## 整条链路先看一眼
 
@@ -491,9 +491,9 @@ export const schwabAccountGuide = `本页面向**中国内地居民**，整理�
 
 ### 嘉信和 Firstrade、盈立怎么选？
 
-嘉信更偏美国综合型账户、长期持有，入金可结合港卡港币路径。若更看重美股免佣与电汇补贴，对照 [Firstrade 开户](/tutorials/firstrade-account-guide)；若要港股 + 港卡出入金更顺手，对照 [盈立新加坡开户](/tutorials/usmart-sg-account-guide)。选型框架：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)。
+嘉信更偏美国综合型账户、长期持有，入金可结合港卡港币路径。若更看重美股免佣与电汇补贴，对照 [Firstrade 开户](/tutorials/firstrade-account-guide)；若要港股 + 港卡出入金更顺手，对照 [盈立新加坡开户](/tutorials/usmart-sg-account-guide)。选型框架：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)。
 
 ---
 
-相关阅读：[如何选择美股券商](/tutorials/how-to-choose-us-broker) · [Firstrade 开户](/tutorials/firstrade-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [港卡开户入门](/tutorials/hong-kong-bank-account-guide) · [美股券商导航](/nav/overseas-brokers) · [嘉信国际开户页](https://international.schwab.com/)
+相关阅读：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) · [Firstrade 开户](/tutorials/firstrade-account-guide) · [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) · [港卡开户入门](/tutorials/hong-kong-bank-account-guide) · [美股券商导航](/nav/overseas-brokers) · [嘉信国际开户页](https://international.schwab.com/)
 `;

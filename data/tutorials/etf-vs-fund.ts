@@ -45,7 +45,7 @@ export const etfVsFundGuide = `本页用尽量少的术语，对照 **ETF**、**
 
 出入金与开户可对照：
 
-- [如何选择美股券商？](/tutorials/how-to-choose-us-broker)
+- [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)
 - [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer)
 - [一图看懂港卡资金路径](/tutorials/hk-fund-path-infographic)
 

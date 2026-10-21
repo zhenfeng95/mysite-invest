@@ -6,7 +6,8 @@ export const usBrokerAccountIn5Min = `没有单独短视频时，用本页做**�
 - [Firstrade 开户教程](/tutorials/firstrade-account-guide)
 - [盈立证券（新加坡）开户教程](/tutorials/usmart-sg-account-guide)
 - [宝时证券开户教程](/tutorials/bosco-account-guide)
-- 选型：[如何选择美股券商？](/tutorials/how-to-choose-us-broker)
+- [致富证券开户教程](/tutorials/chief-account-guide)
+- 选型：[大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker)
 
 ## 一、先准备什么（约 1 分钟想清楚）
 
@@ -62,7 +63,7 @@ W-8BEN 是向券商声明你是**非美国税务居民**的常见表格，和股
 
 | 需求 | 链接 |
 | --- | --- |
-| 选哪家 | [如何选择美股券商？](/tutorials/how-to-choose-us-broker) |
+| 选哪家 | [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) |
 | 券商列表 | [港美股券商导航](/nav/overseas-brokers) |
 | 钱怎么进 | [美股入金与资金流转](/tutorials/us-stock-deposit-and-transfer) |
 

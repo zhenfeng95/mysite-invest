@@ -81,7 +81,7 @@ Firstrade 等常见默认路径；大额或有汇款补贴，见：[Firstrade �
 | 账户体系一图 | [一图看懂美股账户体系](/tutorials/us-account-system-infographic) |
 | 港卡 / 汇款与出入金 | [香港银行](/nav/overseas-banks) · [汇款与出入金](/nav/fund-transfer) |
 | 港卡在内地取现 / 扫码 | [ATM 取现](/tutorials/hk-card-mainland-atm-cash) · [绑微信支付宝](/tutorials/hk-card-bind-wechat-alipay) |
-| 选券商 | [如何选择美股券商？](/tutorials/how-to-choose-us-broker) |
+| 选券商 | [大陆用户如何投资美股？美股券商怎么选？](/tutorials/how-to-choose-us-broker) |
 
 ---
 

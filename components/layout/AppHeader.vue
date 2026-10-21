@@ -102,7 +102,7 @@ function isNavItemActive(item: NavItem) {
     if (item.children?.some(child => isActive(child.to, false))) {
         return true;
     }
-    // 如盈立等未进港资/美资子菜单的券商教程：高亮「港美股券商」父级
+    // 未精确映射到港资/美资/新资子菜单路径时：高亮「港美股券商」父级
     const contextPath = navContextPath.value;
     if (!contextPath || !item.children?.length) {
         return false;
