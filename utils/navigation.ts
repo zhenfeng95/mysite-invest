@@ -3,7 +3,7 @@ import type { NavigationCategory, NavigationItem } from '~/types/navigation'
 
 const categories = navigationData.categories as NavigationCategory[]
 
-/** 导航索引页分组：跨境账户与资金 / 数字基建（投资品种分组暂不展示，数据仍保留） */
+/** 导航索引页分组（投资品种、数字基建分组暂不展示，数据仍保留） */
 export interface NavigationGroup {
   id: string
   title: string
@@ -20,8 +20,15 @@ export const investmentVarietyNavSlugs: readonly string[] = [
   'options',
 ]
 
+/** 数字基建：本站仅页头/页脚外链，不在首页与导航索引展示 */
+export const externalOnlyNavSlugs: readonly string[] = ['digital-infra']
+
 export function isInvestmentVarietyNavSlug(slug: string): boolean {
   return investmentVarietyNavSlugs.includes(slug)
+}
+
+export function isExternalOnlyNavSlug(slug: string): boolean {
+  return externalOnlyNavSlugs.includes(slug)
 }
 
 export const navigationGroups: NavigationGroup[] = [
@@ -30,12 +37,6 @@ export const navigationGroups: NavigationGroup[] = [
     title: '跨境账户与资金',
     description: '境外银行卡、手机卡、券商、汇款与出入金路径。',
     slugs: ['overseas-banks', 'overseas-sim', 'overseas-brokers', 'fund-transfer'],
-  },
-  {
-    id: 'digital-infra',
-    title: '数字基建',
-    description: '域名、Workspace、Cloudflare、DNSHE、海外邮箱等跨境数字基础设施。',
-    slugs: ['digital-infra'],
   },
 ]
 
@@ -76,7 +77,9 @@ export function getNavigationCategories(): NavigationCategory[] {
 /** 在导航索引、首页与页脚等站点地图中列出的分类 */
 export function getListedNavigationCategories(): NavigationCategory[] {
   return getNavigationCategories().filter(
-    category => !isInvestmentVarietyNavSlug(category.slug),
+    category =>
+      !isInvestmentVarietyNavSlug(category.slug)
+      && !isExternalOnlyNavSlug(category.slug),
   )
 }
 
@@ -117,6 +120,7 @@ export function getGroupedNavigationCategories(): Array<
 
 export function getFeaturedNavigationItems(limit = 4): Array<NavigationItem & { categoryName: string, categorySlug: string }> {
   return categories
+    .filter(category => !isExternalOnlyNavSlug(category.slug))
     .flatMap(category => category.items
       .filter(item => item.featured)
       .map(item => ({
@@ -188,7 +192,6 @@ const headerNavPathByTutorialCategory: Record<string, string> = {
   境外手机卡: getNavigationPath('overseas-sim'),
   资金流转: getNavigationPath('fund-transfer'),
   出入金: getNavigationPath('fund-transfer'),
-  数字基建: getNavigationPath('digital-infra'),
 }
 
 const tutorialIndexSlugs = new Set(['articles', 'videos', 'infographics'])

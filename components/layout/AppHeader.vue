@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { NavItem } from '~/utils/site';
-import { mainNav, SITE_NAME } from '~/utils/site';
+import { isExternalNavTo, mainNav, SITE_NAME } from '~/utils/site';
 import { getHeaderNavContextPath } from '~/utils/navigation';
 import { getTutorialMetaBySlug } from '~/utils/tutorial-meta';
 
@@ -74,6 +74,9 @@ function queryMatches(params: URLSearchParams) {
 
 /** matchQuery：子项需对齐 ?market= 等参数；父级高亮只比路径 */
 function isActive(to: string, matchQuery = true) {
+    if (isExternalNavTo(to)) {
+        return false;
+    }
     const { pathname, params } = parseNavTarget(to);
     const contextPath = navContextPath.value;
     if (contextPath) {
@@ -213,6 +216,9 @@ onBeforeUnmount(() => {
                         <NuxtLink
                             v-else
                             :to="item.to!"
+                            :external="isExternalNavTo(item.to!)"
+                            :target="isExternalNavTo(item.to!) ? '_blank' : undefined"
+                            :rel="isExternalNavTo(item.to!) ? 'noopener noreferrer' : undefined"
                             class="rounded-[6px] px-3 py-1.5 text-sm transition"
                             :class="
                                 isActive(item.to!)
@@ -303,6 +309,9 @@ onBeforeUnmount(() => {
                             <NuxtLink
                                 v-else
                                 :to="item.to!"
+                                :external="isExternalNavTo(item.to!)"
+                                :target="isExternalNavTo(item.to!) ? '_blank' : undefined"
+                                :rel="isExternalNavTo(item.to!) ? 'noopener noreferrer' : undefined"
                                 class="rounded-xl px-3 py-3 text-base transition"
                                 :class="
                                     isActive(item.to!)

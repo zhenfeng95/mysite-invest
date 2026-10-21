@@ -32,6 +32,9 @@ export default defineNuxtConfig({
         '/nav/deposit-withdraw': {
             redirect: { to: '/nav/fund-transfer', statusCode: 301 },
         },
+        '/nav/digital-infra': {
+            redirect: { to: 'https://zhenvia.com/digital-infra', statusCode: 301 },
+        },
         // 方案 C：功能区 noindex；教程 / 信任页 / 首页默认可收录（见 utils/seo-index.ts）
         '/nav': { index: false },
         '/nav/**': { index: false },
@@ -111,7 +114,7 @@ export default defineNuxtConfig({
         indexnowKey: 'zheninvest-indexnow-8f3a2c1b',
         indexnowSyncSecret: '',
         public: {
-            siteUrl: 'https://invest.zhenvia.com',
+            siteUrl: 'https://zheninvest.com',
             siteName: 'Zhen Invest',
         },
     },

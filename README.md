@@ -6,7 +6,7 @@
 
 ## 在线体验
 
-- 体验链接：https://invest.zhenvia.com
+- 体验链接：https://zheninvest.com
 
 ## 技术栈
 
@@ -82,7 +82,7 @@ npm run build
 NUXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-`nuxt.config.ts` 里的默认站点地址是 `https://invest.zhenvia.com`。本地开发请在 `.env` 里改成 `http://localhost:3000`。该变量用于 canonical、Open Graph、sitemap 和 robots.txt。稳定后再切回 `https://zheninvest.com`。
+`nuxt.config.ts` 里的默认站点地址是 `https://zheninvest.com`。本地开发请在 `.env` 里改成 `http://localhost:3000`。该变量用于 canonical、Open Graph、sitemap 和 robots.txt。
 
 ### IndexNow
 
@@ -90,11 +90,11 @@ NUXT_PUBLIC_SITE_URL=http://localhost:3000
 
 从托管平台的共用出口代提交时，IndexNow 经常返回 **429**。推荐**在本机直接提交**：
 
-1. 确认 key 可访问：`https://invest.zhenvia.com/zheninvest-indexnow-8f3a2c1b.txt`
+1. 确认 key 可访问：`https://zheninvest.com/zheninvest-indexnow-8f3a2c1b.txt`
 2. 先从站点取 payload（不真正提交）：
 
 ```bash
-curl -X POST 'https://invest.zhenvia.com/api/indexnow/sync?dryRun=1' -o /tmp/indexnow-payload.json
+curl -X POST 'https://zheninvest.com/api/indexnow/sync?dryRun=1' -o /tmp/indexnow-payload.json
 ```
 
 3. 用本机网络提交给必应：
@@ -109,7 +109,7 @@ curl -i -X POST 'https://www.bing.com/indexnow' \
 成功时 HTTP 状态一般为 `200` 或 `202`。也可只测首页：
 
 ```bash
-curl -i 'https://www.bing.com/indexnow?url=https%3A%2F%2Finvest.zhenvia.com%2F&key=zheninvest-indexnow-8f3a2c1b'
+curl -i 'https://www.bing.com/indexnow?url=https%3A%2F%2Fzheninvest.com%2F&key=zheninvest-indexnow-8f3a2c1b'
 ```
 
 若设置了 `NUXT_INDEXNOW_SYNC_SECRET`，请求站点 sync 接口时需带请求头 `x-indexnow-secret`。
@@ -121,7 +121,7 @@ curl -i 'https://www.bing.com/indexnow?url=https%3A%2F%2Finvest.zhenvia.com%2F&k
 `vercel.json` 把函数区域锁定为 `sin1`（新加坡），框架为 Nuxt。把这个仓库接到 Vercel 后，生产环境变量至少设置：
 
 ```bash
-NUXT_PUBLIC_SITE_URL=https://invest.zhenvia.com
+NUXT_PUBLIC_SITE_URL=https://zheninvest.com
 NUXT_GITHUB_TOKEN=
 ```
 

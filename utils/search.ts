@@ -1,4 +1,8 @@
-import { getNavigationCategories, getNavigationPath } from '~/utils/navigation'
+import {
+  getNavigationCategories,
+  getNavigationPath,
+  isExternalOnlyNavSlug,
+} from '~/utils/navigation'
 import { getNotes } from '~/utils/note-meta'
 import {
   getTutorialCategoryLabel,
@@ -91,15 +95,6 @@ function buildIndex(): IndexedItem[] {
       to: '/tools',
       haystack: buildHaystack('投资工具', '工具', 'tools'),
     },
-    {
-      id: 'page-digital-infra',
-      group: 'page',
-      groupLabel: GROUP_LABEL.page,
-      title: '数字基建',
-      description: '域名、Workspace、Cloudflare、DNSHE 与海外邮箱',
-      to: '/nav/digital-infra',
-      haystack: buildHaystack('数字基建', '域名', '邮箱', 'Workspace', 'Cloudflare', 'DNSHE'),
-    },
     ...fundNavLinks.map(link => ({
       id: `page-${link.to}`,
       group: 'page' as const,
@@ -177,25 +172,27 @@ function buildIndex(): IndexedItem[] {
     haystack: buildHaystack(item.name, item.description, item.id, item.status),
   }))
 
-  const nav: IndexedItem[] = getNavigationCategories().flatMap(category =>
-    category.items.map(item => ({
-      id: `nav-${item.id}`,
-      group: 'nav' as const,
-      groupLabel: GROUP_LABEL.nav,
-      title: item.name,
-      description: item.description,
-      to: item.guideUrl || getNavigationPath(category.slug),
-      meta: category.name,
-      haystack: buildHaystack(
-        item.name,
-        item.description,
-        item.tags,
-        category.name,
-        category.fullName,
-        category.slug,
-      ),
-    })),
-  )
+  const nav: IndexedItem[] = getNavigationCategories()
+    .filter(category => !isExternalOnlyNavSlug(category.slug))
+    .flatMap(category =>
+      category.items.map(item => ({
+        id: `nav-${item.id}`,
+        group: 'nav' as const,
+        groupLabel: GROUP_LABEL.nav,
+        title: item.name,
+        description: item.description,
+        to: item.guideUrl || getNavigationPath(category.slug),
+        meta: category.name,
+        haystack: buildHaystack(
+          item.name,
+          item.description,
+          item.tags,
+          category.name,
+          category.fullName,
+          category.slug,
+        ),
+      })),
+    )
 
   return [...pages, ...notes, ...tutorials, ...tools, ...nav]
 }

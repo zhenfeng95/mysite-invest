@@ -256,7 +256,7 @@ Cloudflare 会自动扫描并导入现有 DNS 记录。导入后，部分 A / CN
 
 ![对照填写 DS 记录并保存](/images/tutorials/google-workspace-dnssec-fill-ds.png)
 
-这样后续建站、CDN、证书会更省心。Cloudflare 资源入口也可对照站内 [数字基建导航](/nav/digital-infra)。
+这样后续建站、CDN、证书会更省心。
 
 ### 2. 了解 60 天转移限制
 
@@ -284,7 +284,7 @@ Cloudflare 会自动扫描并导入现有 DNS 记录。导入后，部分 A / CN
 
 - 想长期持有 \`.com\`，在意续费成本
 - 已有外币卡，能接受一点账号与结算折腾
-- 后续会接 Cloudflare、自建站、海外邮箱等数字基建
+- 后续会接 Cloudflare、自建站、海外邮箱等基础设施
 
 **更可能不适合**
 
@@ -298,11 +298,10 @@ Cloudflare 会自动扫描并导入现有 DNS 记录。导入后，部分 A / CN
 - [订阅管理（Admin）](https://admin.google.com/ac/billing/subscriptions)
 - [Squarespace 账户 / 域名管理](https://account.squarespace.com/)（若你的域名已迁至该后台）
 - [Cloudflare](https://www.cloudflare.com)
-- 站内：[跨境数字基建导航](/nav/digital-infra)
 
 产品价格与流程可能随时调整。下单前请以官方结账页的货币、金额与条款为准。
 
 ---
 
-相关入口：[Google Workspace](https://workspace.google.com) · [数字基建导航](/nav/digital-infra)
+相关入口：[Google Workspace](https://workspace.google.com)
 `;

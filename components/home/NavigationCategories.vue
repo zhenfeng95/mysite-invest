@@ -9,7 +9,7 @@ const categories = getListedNavigationCategories()
     <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
       <SectionTitle
         title="资源导航"
-        description="按主题进入境外银行、手机卡、券商、资金路径与数字基建。"
+        description="按主题进入境外银行、手机卡、券商与资金路径。"
       />
       <NuxtLink
         to="/nav"

@@ -148,8 +148,8 @@ const communityHref = computed(() => socialHref(author.communityUrl))
           </p>
           <p>站点目前主要提供：</p>
           <ul class="list-disc space-y-2 pl-5">
-            <li>港美股、香港银行、资金流转、数字基建等主题的图文教程</li>
-            <li>按分类整理的官方资源导航（券商、银行、SIM、基建等）</li>
+            <li>港美股、香港银行、资金流转等主题的图文教程</li>
+            <li>按分类整理的官方资源导航（券商、银行、SIM 等）</li>
             <li>少量计算器与日历类轻量工具</li>
             <li>站长个人投研复盘（市场评分、日/周/月复盘），用于学习记录，不代表他人应跟随</li>
           </ul>

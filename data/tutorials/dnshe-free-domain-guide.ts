@@ -248,12 +248,11 @@ curl -X POST "https://api005.dnshe.com/index.php?m=domain_hub&endpoint=subdomain
 - [续期说明](https://my.dnshe.com/knowledgebase/5/DNSHE-Free-Domain-Renewal-and-API-Command-Renewal-Methods.html?language=chinese)
 - [服务条款](https://www.dnshe.com/tos.html)
 - [滥用举报](https://www.dnshe.com/domainabuse/)
-- 站内：[跨境数字基建导航](/nav/digital-infra)
 - 站内：[Google Workspace 低价 .com 教程](/tutorials/google-workspace-domain-guide)
 
 产品规则可能随时调整。注册、解析和续期前请以官方控制台与文档为准。
 
 ---
 
-相关入口：[DNSHE](https://www.dnshe.com) · [数字基建导航](/nav/digital-infra)
+相关入口：[DNSHE](https://www.dnshe.com)
 `;

@@ -1,5 +1,13 @@
 <script setup lang="ts">
-import { footerAboutLinks, footerCategoryLinks, SITE_DISCLAIMER, SITE_NAME, SITE_NAME_EN, SITE_TAGLINE } from '~/utils/site'
+import {
+  footerAboutLinks,
+  footerCategoryLinks,
+  isExternalNavTo,
+  SITE_DISCLAIMER,
+  SITE_NAME,
+  SITE_NAME_EN,
+  SITE_TAGLINE,
+} from '~/utils/site'
 </script>
 
 <template>
@@ -16,7 +24,7 @@ import { footerAboutLinks, footerCategoryLinks, SITE_DISCLAIMER, SITE_NAME, SITE
             <span class="text-sm font-semibold tracking-tight">{{ SITE_NAME }}</span>
           </NuxtLink>
           <p class="mt-4 max-w-sm text-sm leading-6 text-zinc-500 dark:text-zinc-400">
-            {{ SITE_TAGLINE }}。帮助你更快找到教程、工具、银行、券商、资金路径与数字基建。
+            {{ SITE_TAGLINE }}。帮助你更快找到教程、工具、银行、券商与资金路径。
           </p>
         </div>
 
@@ -40,6 +48,9 @@ import { footerAboutLinks, footerCategoryLinks, SITE_DISCLAIMER, SITE_NAME, SITE
             <li v-for="item in footerCategoryLinks" :key="item.to">
               <NuxtLink
                 :to="item.to"
+                :external="isExternalNavTo(item.to)"
+                :target="isExternalNavTo(item.to) ? '_blank' : undefined"
+                :rel="isExternalNavTo(item.to) ? 'noopener noreferrer' : undefined"
                 class="text-sm text-zinc-500 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
               >
                 {{ item.label }}

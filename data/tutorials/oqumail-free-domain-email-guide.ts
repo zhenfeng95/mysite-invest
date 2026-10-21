@@ -166,6 +166,5 @@ OquMail 解决的是「已有域名，想快速拥有 \`you@yourdomain.com\`」�
 
 - 官网：[oqumail.com](https://oqumail.com)
 - 定价与 FAQ：[oqumail.com/pricing](https://oqumail.com/pricing)
-- 站内导航卡片：[数字基建 · OquMail](/digital-infra)
 - 低价持有 \`.com\`：[Google Workspace 低价域名教程](/tutorials/google-workspace-domain-guide)
 `;

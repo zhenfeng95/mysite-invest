@@ -1,23 +1,29 @@
 export const SITE_NAME = 'Zhen Invest';
 export const SITE_NAME_EN = 'Zhen Invest';
-export const SITE_TAGLINE = '跨境投资入口 · 开户教程 / 资金路径 / 数字基建';
+export const SITE_TAGLINE = '跨境投资入口 · 开户教程 / 资金路径';
 /** 首页 Hero 介绍（两行展示，见 HeroSection） */
 export const SITE_HERO_INTRO_LINES = [
     '港美股与跨境投资入口',
-    '开户教程 · 出入金路径 · 数字基建导航',
+    '开户教程 · 出入金路径 · 资源导航',
 ] as const;
 export const SITE_HERO_INTRO = SITE_HERO_INTRO_LINES.join('：');
 export const SITE_DESCRIPTION =
-    'Zhen Invest 整理港美股与跨境投资入口，涵盖开户教程、出入金路径、域名与邮箱等数字基建，以及银行、券商与资金流转资源导航，帮助你更快找到可靠信息与操作路径，让跨境投资更简单。';
+    'Zhen Invest 整理港美股与跨境投资入口，涵盖开户教程、出入金路径，以及银行、券商与资金流转资源导航，帮助你更快找到可靠信息与操作路径，让跨境投资更简单。';
 export const SITE_DISCLAIMER =
     '本站内容仅用于信息整理与学习交流，不构成投资建议、邀约或任何交易推荐；开户、转账与资产配置请以各机构官方披露为准，并请独立判断风险与合规要求。';
 /** 公开联系邮箱；请确保该邮箱可正常收信 */
 export const SITE_CONTACT_EMAIL = 'zen@zheninvest.com';
-export const SITE_URL = 'https://invest.zhenvia.com';
+export const SITE_URL = 'https://zheninvest.com';
+/** 数字基建专题已迁至真途；本站仅页头 / 页脚外链入口 */
+export const DIGITAL_INFRA_URL = 'https://zhenvia.com/digital-infra';
 
 export interface NavLink {
     label: string;
     to: string;
+}
+
+export function isExternalNavTo(to: string) {
+    return /^https?:\/\//i.test(to);
 }
 
 export interface NavItem {
@@ -70,7 +76,7 @@ export const mainNav: NavItem[] = [
         children: researchNavLinks,
     },
     { label: '投资工具', to: '/tools' },
-    { label: '数字基建', to: '/nav/digital-infra' },
+    { label: '数字基建', to: DIGITAL_INFRA_URL },
 ];
 
 export const footerAboutLinks: NavLink[] = [
@@ -86,7 +92,7 @@ export const footerCategoryLinks: NavLink[] = [
     { label: '境外手机卡', to: '/nav/overseas-sim' },
     { label: '美股券商', to: '/nav/overseas-brokers' },
     { label: '汇款与出入金', to: '/nav/fund-transfer' },
-    { label: '数字基建', to: '/nav/digital-infra' },
+    { label: '数字基建', to: DIGITAL_INFRA_URL },
 ];
 
 export const homeSeo = {
