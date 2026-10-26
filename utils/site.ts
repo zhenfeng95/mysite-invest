@@ -77,7 +77,7 @@ export const mainNav: NavItem[] = [
         children: researchNavLinks,
     },
     { label: '投资工具', to: '/tools' },
-    { label: '数字基建', to: DIGITAL_INFRA_URL },
+    { label: '建站攻略', to: DIGITAL_INFRA_URL },
 ];
 
 export const footerAboutLinks: NavLink[] = [
@@ -93,7 +93,7 @@ export const footerCategoryLinks: NavLink[] = [
     { label: '境外手机卡', to: '/nav/overseas-sim' },
     { label: '美股券商', to: '/nav/overseas-brokers' },
     { label: '汇款与出入金', to: '/nav/fund-transfer' },
-    { label: '数字基建', to: DIGITAL_INFRA_URL },
+    { label: '建站攻略', to: DIGITAL_INFRA_URL },
 ];
 
 export const homeSeo = {

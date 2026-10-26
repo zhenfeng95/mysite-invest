@@ -15,10 +15,9 @@ export const homeWeeklySpotlight: HomeWeeklySpotlight | null = {
   label: '本周推荐',
   items: [
     {
-      badge: '活动进行中',
-      title: '兴业银行寰宇人生借记卡开户教程',
-      description: '大陆银行卡购汇后汇往香港汇丰：新办 / 一类户换卡、提额与费用对照',
-      to: '/tutorials/cib-huanyu-account-guide',
+      title: '嘉信国际开户教程',
+      description: '护照材料、线上申请、W-8BEN 到可入金，以及有港卡时的港币入金路径',
+      to: '/tutorials/schwab-account-guide',
     },
     {
       badge: '活动进行中',
