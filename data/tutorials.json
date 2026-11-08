@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "binance-account",
+      "slug": "binance-account-guide",
+      "title": "币安注册与身份认证流程说明：适用条件、KYC 与安全设置",
+      "description": "说明谁适合继续、如何核对自己所在地是否可注册，以及币安国际版与美国版差异；再整理注册登录、按真实居住地完成 KYC、安全设置与出入金核对项。可服务地区与规则以官网当时显示为准。",
+      "type": "article",
+      "category": "加密货币",
+      "tags": ["加密货币", "币安", "Binance", "交易所", "开户", "KYC"],
+      "readingMinutes": 14,
+      "updatedAt": "2026-11-07",
+      "publishedAt": "2026-11-07",
+      "popular": true,
+      "markdownFile": "binance-account-guide"
+    },
+    {
       "id": "cib-huanyu-account",
       "slug": "cib-huanyu-account-guide",
       "title": "兴业银行寰宇人生借记卡开户教程",

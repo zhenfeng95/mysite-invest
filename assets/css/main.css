@@ -107,6 +107,15 @@
     @apply mt-6 max-w-full rounded-2xl border border-zinc-200/80 dark:border-white/10;
   }
 
+  /* 同一段落内连续多张图：并排展示（教程步骤截图） */
+  .markdown-body p:has(> img:nth-of-type(2)) {
+    @apply mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3;
+  }
+
+  .markdown-body p:has(> img:nth-of-type(2)) > img {
+    @apply mt-0 h-auto w-full;
+  }
+
   .markdown-body code {
     @apply rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-[0.85em] text-zinc-700 dark:bg-white/10 dark:text-zinc-200;
   }

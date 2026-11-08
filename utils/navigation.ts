@@ -36,7 +36,7 @@ export const navigationGroups: NavigationGroup[] = [
     id: 'cross-border',
     title: '跨境账户与资金',
     description: '境外银行卡、手机卡、券商、汇款与出入金路径。',
-    slugs: ['overseas-banks', 'overseas-sim', 'overseas-brokers', 'fund-transfer'],
+    slugs: ['overseas-banks', 'overseas-sim', 'overseas-brokers', 'crypto', 'fund-transfer'],
   },
 ]
 
@@ -49,6 +49,7 @@ const shortDescriptions: Record<string, string> = {
   'overseas-banks': '香港及境外银行开户相关入口',
   'overseas-sim': '境外 SIM / eSIM 与接码入口',
   'overseas-brokers': '港美股券商开户与交易入口',
+  crypto: '加密货币交易所开户与常用入口',
   'fund-transfer': '出入金、跨境汇款、多币种账户与港卡内地使用',
   'digital-infra': '域名、Workspace、Cloudflare、DNSHE 与邮箱',
 }
@@ -63,6 +64,7 @@ const tutorialCategoriesByNavSlug: Record<string, string[]> = {
   'overseas-banks': ['香港银行'],
   'overseas-sim': ['境外手机卡'],
   'overseas-brokers': ['美股券商'],
+  crypto: ['加密货币'],
   'fund-transfer': ['资金流转', '出入金'],
   'digital-infra': ['数字基建'],
 }
@@ -195,6 +197,7 @@ export function getBrokerCapitalPath(id: BrokerCapital): string {
 /** 教程详情页的 category → 头部菜单对应路径（教程 URL 不变，仅用于高亮） */
 const headerNavPathByTutorialCategory: Record<string, string> = {
   美股券商: getNavigationPath('overseas-brokers'),
+  加密货币: getNavigationPath('crypto'),
   香港银行: getNavigationPath('overseas-banks'),
   境外手机卡: getNavigationPath('overseas-sim'),
   资金流转: getNavigationPath('fund-transfer'),

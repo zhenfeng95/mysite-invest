@@ -10,7 +10,13 @@ import {
   getTutorialTypeLabel,
 } from '~/utils/tutorial-meta'
 import { getTools, getToolStatusLabel } from '~/utils/tools'
-import { brokerNavLinks, fundNavLinks, researchNavLinks, researchNavLinksHidden } from '~/utils/site'
+import {
+  brokerNavLinks,
+  cryptoNavLinks,
+  fundNavLinks,
+  researchNavLinks,
+  researchNavLinksHidden,
+} from '~/utils/site'
 
 export type SearchResultGroup = 'page' | 'tutorial' | 'note' | 'tool' | 'nav'
 
@@ -112,6 +118,15 @@ function buildIndex(): IndexedItem[] {
       description: '港美股券商开户与交易入口',
       to: link.to,
       haystack: buildHaystack(link.label, '港美股券商', '券商', link.to),
+    })),
+    ...cryptoNavLinks.map(link => ({
+      id: `page-${link.to}`,
+      group: 'page' as const,
+      groupLabel: GROUP_LABEL.page,
+      title: link.label,
+      description: '加密货币交易所开户与常用入口',
+      to: link.to,
+      haystack: buildHaystack(link.label, '加密货币', '币安', '交易所', link.to),
     })),
     ...[...researchNavLinks, ...researchNavLinksHidden]
       .filter(link => link.to !== '/notes')

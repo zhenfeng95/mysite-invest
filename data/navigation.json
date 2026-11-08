@@ -373,7 +373,7 @@
                     "featured": true,
                     "guideUrl": "/tutorials/xesim-esim-adapter-guide",
                     "guideLabel": "适配器教程",
-                    "updatedAt": "2026-08-24"
+                    "updatedAt": "2026-10-30"
                 },
                 {
                     "id": "esim-gg",
@@ -522,6 +522,32 @@
                     "guideUrl": "/tutorials/mainland-hk-us-stock-tax-guide",
                     "guideLabel": "阅读教程",
                     "updatedAt": "2026-09-17"
+                }
+            ]
+        },
+        {
+            "id": "crypto",
+            "slug": "crypto",
+            "name": "加密货币",
+            "fullName": "加密货币交易所入口",
+            "description": "加密货币交易所开户与常用入口整理，链向站内开户教程；政策、可服务地区与费率以各平台官方当时说明为准。",
+            "icon": "broker",
+            "items": [
+                {
+                    "id": "binance",
+                    "name": "Binance（币安）",
+                    "description": "全球常用加密货币交易所之一。可查看币安开户教程。",
+                    "url": "https://www.binance.com",
+                    "tags": [
+                        "加密货币",
+                        "交易所",
+                        "开户"
+                    ],
+                    "officialUrlConfirmed": true,
+                    "featured": true,
+                    "guideUrl": "/tutorials/binance-account-guide",
+                    "guideLabel": "开户教程",
+                    "updatedAt": "2026-11-07"
                 }
             ]
         },

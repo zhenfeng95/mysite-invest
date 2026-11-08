@@ -55,6 +55,11 @@ export const brokerNavLinks: NavLink[] = [
     { label: '新资券商', to: '/nav/overseas-brokers/sg' },
 ];
 
+/** 搜索等复用；头部主菜单不再单独挂「加密货币」入口 */
+export const cryptoNavLinks: NavLink[] = [
+    { label: '交易所入口', to: '/nav/crypto' },
+];
+
 /** 头部「资金流转」下拉 */
 export const fundNavLinks: NavLink[] = [
     { label: '汇款与出入金', to: '/nav/fund-transfer' },
@@ -92,6 +97,7 @@ export const footerCategoryLinks: NavLink[] = [
     { label: '境外银行卡', to: '/nav/overseas-banks' },
     { label: '境外手机卡', to: '/nav/overseas-sim' },
     { label: '美股券商', to: '/nav/overseas-brokers' },
+    { label: '加密货币', to: '/nav/crypto' },
     { label: '汇款与出入金', to: '/nav/fund-transfer' },
     { label: '建站攻略', to: DIGITAL_INFRA_URL },
 ];
